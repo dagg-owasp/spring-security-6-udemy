@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
 @SpringBootApplication
-//@EnableWebSecurity Habilitada por defecto en Spring 6
+@EnableWebSecurity(debug = true)
+
 public class SpringSecurityApplication {
 
 	public static void main(String[] args) {
